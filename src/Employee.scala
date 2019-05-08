@@ -1,0 +1,1 @@
+class Employee (val empName : String, val empEmail : String, val empSalary : Double, val isAdult : Boolean)
