@@ -20,7 +20,7 @@ object JsonToExcelOperation {
 
     val workbook : Workbook = new XSSFWorkbook()
     val createHelper : CreationHelper = workbook.getCreationHelper()
-    val sheet : Sheet = workbook.createSheet("Employee")
+    val sheet : Sheet = workbook.createSheet("Result")
 
     val headerFont : Font = workbook.createFont()
     headerFont.setBold(true)
